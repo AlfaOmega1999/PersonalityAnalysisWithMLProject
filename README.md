@@ -28,4 +28,5 @@ Contains the code for the personality detection application.
 
 ## Local Deployment
 Frontend | Backend
+--- | ---
 `npm start` | `python -m uvicorn main:app --reload` 
