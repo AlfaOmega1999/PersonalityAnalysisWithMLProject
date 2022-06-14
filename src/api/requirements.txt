@@ -1,0 +1,11 @@
+numpy
+pandas
+re
+stopwords
+WordNetLemmatizer
+CountVectorizer
+TfidfTransformer
+joblib
+fastapi
+uvicorn
+gunicorn==20.1.0
