@@ -16,7 +16,7 @@ https://personality-web.netlify.app/
 ## Backend Deployment
 ![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)
 
-## Contenido de las carpetas
+## Folder structure
 ### data
 Contains the data used for the generation of the models.
 ### models
