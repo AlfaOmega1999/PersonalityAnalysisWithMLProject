@@ -24,7 +24,7 @@ Contains the models used for personality detection.
 ### public
 Contains part of the code used for React
 ### src
-Contains the code for the personality detection application.
+Contains the personality detection application code.
 
 ## Local Deployment
 Frontend | Backend
