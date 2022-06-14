@@ -30,3 +30,5 @@ Contains the code for the personality detection application.
 Frontend | Backend
 --- | ---
 `npm start` | `python -m uvicorn main:app --reload` 
+
+Make sure that you change the URL in `src/config.js` in order to access localhost 
