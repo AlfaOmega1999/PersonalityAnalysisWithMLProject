@@ -16,7 +16,7 @@ https://personality-web.netlify.app/
 ## Backend Deployment
 ![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)
 
-## Contenido de las carpetas
+## Folder structure
 ### data
 Contains the data used for the generation of the models.
 ### models
@@ -24,8 +24,11 @@ Contains the models used for personality detection.
 ### public
 Contains part of the code used for React
 ### src
-Contains the code for the personality detection application.
+Contains the personality detection application code.
 
 ## Local Deployment
 Frontend | Backend
+--- | ---
 `npm start` | `python -m uvicorn main:app --reload` 
+
+Make sure that you change the URL in `/src/config.js` in order to access localhost 
