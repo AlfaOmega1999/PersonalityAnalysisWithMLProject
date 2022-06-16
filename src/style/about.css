@@ -25,11 +25,11 @@
     position: relative;
     text-align: left;
 	-webkit-text-shadow: 0 0 15px #BE9533;
-	text-shadow: 0 0 15px #BE9533;
+	        text-shadow: 0 0 15px #BE9533;
 }
 
 .about-text{
-	font: 20px/1.1em 'Poppins';
+	font: 20px/1.1em 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
     margin: 0 10px 18px auto;
     text-shadow: 0px 1px 3px #BE9533;

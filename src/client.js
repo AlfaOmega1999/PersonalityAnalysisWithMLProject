@@ -40,7 +40,7 @@ class FastAPIClient {
 	}
 
 	updateDataset(new_type,msg) {
-		return this.apiClient.post(`/updatemodel?type=${new_type}&msg=${msg}`).then(({}) => {})
+		return this.apiClient.post(`/updatemodel?type=${new_type}&msg=${msg}`).then(() => {})
 	}
 }
 export default FastAPIClient;
